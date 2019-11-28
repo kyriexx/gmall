@@ -28,6 +28,7 @@ public class PmsProductInfo implements Serializable {
     @Column
     private  String catalog3Id;
 
+    //spu销售属性列表
     @Transient
     private List<PmsProductSaleAttr> spuSaleAttrList;
 

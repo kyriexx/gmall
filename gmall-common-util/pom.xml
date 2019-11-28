@@ -15,6 +15,13 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.csource</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27-SNAPSHOT</version>
+        </dependency>
+
         <!--测试(springboot有默认版本号)-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

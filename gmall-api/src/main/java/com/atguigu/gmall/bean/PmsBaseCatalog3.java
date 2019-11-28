@@ -10,7 +10,6 @@ public class PmsBaseCatalog3 implements Serializable {
     private String name;
     private String catalog2Id;
 
-
     public String getId() {
         return id;
     }
